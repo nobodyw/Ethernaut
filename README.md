@@ -1,15 +1,21 @@
-# Basic Sample Hardhat Project
+# *Ethernaut hack* 👀️ 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+[https://ethernaut.openzeppelin.com/](https://)
 
-Try running some of the following tasks:
+Se projet reprends les exercices de hack de Ethernaut.
+Je crée des tests et des contracts montrant les hacke des contrats Ethernaut.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+# *Installation et compilation des contracts*
+
 ```
+npm install
+```
+
+```
+npx hardhat compile
+```
+
+```
+npx hardhat test
+```
+
