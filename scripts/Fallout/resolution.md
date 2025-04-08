@@ -1,0 +1,1 @@
+L'erreur permettant de devenir owner du contrat se trouve dans la fonction Fal1out() il suffit au hacker d'appeler cette fonction (envoyer des natives token à cette fonction n'est pas obligatoire.)

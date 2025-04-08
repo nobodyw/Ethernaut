@@ -1,0 +1,1 @@
+Une erreur ligne 35 dans la fonction receive() permet au hacker de devenir owner, il lui faut par ailleurs reussir à appeler la fonction contribute() en amont.
