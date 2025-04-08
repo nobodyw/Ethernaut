@@ -1,11 +1,11 @@
-# *Ethernaut hack* 👀️ 
+# *Ethernaut hack security of smart contract* 👀️ 
 
 [https://ethernaut.openzeppelin.com/](https://)
 
-Se projet reprends les exercices de hack de Ethernaut.
-Je crée des tests et des contracts montrant les hacke des contrats Ethernaut.
+Les différents exercices de hack de Ethernaut.
+Je crée des scripts ou des smart contrats dérivés, permettant la résolution de chaque exercices.
 
-# *Installation et compilation des contracts*
+# *Installation du framework hardhat et compilation des contracts*
 
 ```
 npm install
@@ -15,7 +15,9 @@ npm install
 npx hardhat compile
 ```
 
+Lancer le script de correction sur le réseau Local
+
 ```
-npx hardhat test
+npx hardhat run scripts/$nameOfScript
 ```
 
