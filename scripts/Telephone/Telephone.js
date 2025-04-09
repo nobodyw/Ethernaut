@@ -1,13 +1,13 @@
 const hre = require("hardhat");
 
 async function main() {
-  const Telephone = await hre.ethers.getContractFactory("Telephone/Telephone.sol");
+  const Telephone = await hre.ethers.getContractFactory("Telephone");
   const telephone = await Telephone.deploy();
   await telephone.deployed();
 
   const [ownerDeployer, hacker] = await hre.ethers.getSigners();
 
-  const AttackTelephone = await hre.ethers.getContractFactory("Telephone/AttackTelephone.sol");
+  const AttackTelephone = await hre.ethers.getContractFactory("AttackTelephone");
   const attackTelephone = await AttackTelephone.connect(hacker).deploy(telephone.address);
   await attackTelephone.deployed();
 

