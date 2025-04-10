@@ -1,0 +1,1 @@
+La transaction d'un EOA -> Contract A -> Contract B à modifier la valeur de msg.sender (Contract A address) qui est maintenant différente de tx.orign (EOA address)
