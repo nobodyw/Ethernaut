@@ -1,0 +1,1 @@
+Les variables privée peuvent être lu..
