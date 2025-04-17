@@ -5,7 +5,7 @@ Pour pouvoir récupéré cette valeur il faut passer par la mémoire de stockage
 Définition et explication du stockage.
 Pour rappel un emplacement complet de mémoire en solidity est égal a 32 bytes.
 tous les ensembles de bytes formant 32 bytes sont concaténé en mémoire.
-Un nombre hexadécimal = 2 digits en bytes.
+Deux nombre hexadécimaux = 1 bytes.
 
 
 - bool public locked = true -> 1 bytes. getStorageAt(0 (1/32))
